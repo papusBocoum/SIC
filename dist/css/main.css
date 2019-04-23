@@ -1,0 +1,166 @@
+body {
+    background: white;
+    color: black;
+    height: 100%;
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5; 
+    width: 100% ;
+    padding: 0;
+}
+header{
+    height: 82px;
+    background: #232323;
+    padding: 0;
+    margin: 0;
+}
+#container-header{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 40%;
+    
+
+}
+.logo img{
+    width: 250px;
+    height: 80px;
+    margin-left: 40px;
+    
+
+}
+.nav{
+    width: 60%;
+}
+.nav li{
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
+.nav a:hover{
+    color:lightgray;
+}
+.text{
+    
+    width: 100%;
+  
+    height: 300px;
+    margin-top: 0px;
+    background: url("../img/ai2.jpg");
+    padding: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.text-1{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+}
+.text-2{
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+.contraste{
+    background: rgba(14, 13, 13, 0.5);
+    width: 100%;
+  
+    height: 300px;
+}
+.title{
+    text-align: center;
+    font-size: xx-large;
+}
+.services{
+    width: 85%;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: 30% 30%  30% ;
+    grid-gap: 60px;
+  
+  
+  
+}
+.serv{
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    height: 500px;;
+    display: flex;
+    flex-direction: column;
+}
+.serv .image{
+    height: 50%;
+    width: 100%;
+    
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.serv .description{
+    height: 50%;
+    width: 100%;
+  
+    color: white;
+    text-align: center;
+}
+.serv:hover{
+    background: rgb(3, 2, 77);
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    margin-top: 25px;
+    color: black;
+}
+.temoin{
+    clear: both;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    height: 500px;
+    
+}
+.temoins{
+    width: 100%;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: 22% 22%  22% 22% ;
+    grid-gap: 25px;
+
+}
+.element{
+    
+    
+    
+    padding: 15px;
+    height: 300px;;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+  
+ 
