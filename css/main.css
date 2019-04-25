@@ -160,6 +160,43 @@ footer{
 
 }
 
+.membre{
+ 
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    height: 300px;;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.membre .image{
+    height: 80%;
+    width: 100%;
+    
+}
+.membre .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.membre .description{
+    height: 20%;
+    width: 100%;
+  
+    color: black;
+    text-align: center;
+}
+.membre:hover{
+    border: 1px solid black;
+}
+.title1{
+    text-align: center;
+    font-size: large;
+
+}
+
 
 
   
